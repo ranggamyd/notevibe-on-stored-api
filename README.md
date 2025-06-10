@@ -39,13 +39,13 @@ A digital note-taking app built with React and Tailwind CSS, featuring authentic
 1. Clone the repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/ranggamyd/notevibe.git
 ```
 
 2. Navigate to the project folder
 
 ```bash
-cd your-folder-name
+cd notevibe
 ```
 
 3. Install dependencies
