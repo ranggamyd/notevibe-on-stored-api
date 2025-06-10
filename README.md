@@ -1,51 +1,51 @@
-# 📒 React Notes App
+# 📒 NoteVibes
 
-Ini project catatan digital yang dibangun pakai React + Tailwind CSS, lengkap dengan fitur autentikasi dan multi-context (tema & bahasa). Dibuat pake Vite biar ngebut!
+A digital note-taking app built with React and Tailwind CSS, featuring authentication, theme & language contexts, and blazing-fast performance using Vite.
 
-## 🚀 Fitur Unggulan
+## 🚀 Features
 
-* 🔐 Autentikasi (Login & Register)
-* 📝 Tambah & lihat catatan
-* 🧱 Komponen UI reusable (Button, Input, Toast, dsb)
-* 🌗 Tema gelap/terang
-* 🌐 Dukungan multi bahasa
-* 🔒 Protected route
-* 💾 Simpan data di localStorage
+* 🔐 Authentication (Login & Register)
+* 📝 Add & view notes
+* 🧱 Reusable UI components (Button, Input, Toast, etc.)
+* 🌗 Dark/Light mode toggle
+* 🌐 Multi-language support
+* 🔒 Protected routes
+* 💾 Data persisted in API & localStorage
 
-## 🛠️ Stack Teknologi
+## 🛠️ Tech Stack
 
 * [React](https://reactjs.org/)
 * [Vite](https://vitejs.dev/)
 * [Tailwind CSS](https://tailwindcss.com/)
 * React Context API
 
-## 🧩 Struktur Folder
+## 🧩 Project Structure
 
 ```
 ├── src
 │   ├── components
-│   │   ├── auth/          # Login & Register form
+│   │   ├── auth/          # Login & Register forms
 │   │   ├── common/        # Reusable UI components
 │   │   ├── layout/        # Header & Navigation
 │   │   └── notes/         # NoteCard, NoteForm, NotesList
-│   ├── contexts/          # Auth, Theme, Language
+│   ├── contexts/          # Auth, Theme, Language contexts
 │   ├── hooks/             # Custom hooks (e.g. useInput, useLocalStorage)
 │   ├── pages/             # Page views (AddNotePage, etc)
 │   └── App.jsx
 ```
 
-## ⚙️ Cara Jalanin Project
+## ⚙️ Getting Started
 
-1. Clone repo ini
+1. Clone the repository
 
 ```bash
-git clone <link-repo-anda>
+git clone <your-repo-link>
 ```
 
-2. Masuk ke folder project
+2. Navigate to the project folder
 
 ```bash
-cd nama-folder
+cd your-folder-name
 ```
 
 3. Install dependencies
@@ -54,22 +54,22 @@ cd nama-folder
 npm install
 ```
 
-4. Jalanin project
+4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-## 🤓 Catatan Tambahan
+## 🤓 Extra Notes
 
-* State & context udah dipisah rapi, tinggal gas buat scaling.
-* Toast & dialog tinggal panggil komponen, no ribet-ribet.
-* Buat nambah fitur tinggal tambahin page dan komponen aja.
-
----
-
-Made with 💻 by orang paling rajin nulis catatan ✨
+* State & context are cleanly separated for scalability.
+* Toasts and dialogs are plug-and-play — no fuss.
+* Adding new features? Just drop in a page or a component.
 
 ---
 
-> Mau bikin dark mode, multi bahasa, dan UI kece? Sini liat kodenya dulu, baru komentar 😎
+Made with 💻 by the most note-obsessed dev ever ✨
+
+---
+
+> Wanna build dark mode, multi-language, and slick UI? Check the code first before talking 😉
